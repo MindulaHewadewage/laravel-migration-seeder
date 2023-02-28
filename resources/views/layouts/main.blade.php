@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{env('APP_NAME')}}|@yield('title')</title>
     @yield('cdns')
-    @vite('resources.js/app.js')
+    @vite('resources/js/app.js')
 </head>
 <body>
     @include('includes.header')
